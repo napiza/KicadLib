@@ -1,0 +1,17 @@
+# Ignore everything
+*
+
+# But not these files...
+!.gitignore
+!3D-Models-lib
+!Footprints-lib.pretty
+!Schematic-lib.kicad_sym
+# etc...
+
+
+# ...even if they are in subdirectories
+!*/
+
+# ignore .bak
+
+*.bak
