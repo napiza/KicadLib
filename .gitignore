@@ -1,11 +1,11 @@
 # Ignore everything
-*
+/*
 
 # But not these files...
 !.gitignore
-!3D-Models-lib
-!Footprints-lib.pretty
-!Schematic-lib.kicad_sym
+!3D-Models-lib/
+!Footprints-lib/
+!Schematic-lib/
 !README.md
 # etc...
 
