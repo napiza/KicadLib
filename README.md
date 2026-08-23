@@ -1,0 +1,1 @@
+For clean library, follow: https://medium.com/@kanestoboi/creating-a-comprehensive-kicad-library-component-footprint-and-3d-model-management-with-git-99eee6f616d3
