@@ -231,7 +231,7 @@
 		(uuid "1edd01a6-7d79-4a60-b70c-3b675057c0a5")
 	)
 	(embedded_fonts no)
-	(model "${KICAD_USER_LIBRARY}/3D-Models-lib/m_Resistor_measurement/Y14870R05000B9R.stp"
+	(model "C:/Users/nagor/OneDrive/Escritorio/PCB_DESIGN/GitLabRepository/KicadLib/3D-Models-lib/m_Resistor_measurement/Y14870R05000B9R.stp"
 		(offset
 			(xyz 0 0 0)
 		)

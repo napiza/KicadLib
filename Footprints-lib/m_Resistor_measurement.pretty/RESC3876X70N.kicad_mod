@@ -1,0 +1,181 @@
+(footprint "RESC3876X70N"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "FCSL76")
+	(tags "Resistor")
+	(property "Reference" "R**"
+		(at 0 0 0)
+		(layer "F.SilkS")
+		(uuid "62b5033b-bc12-436d-865b-64c0cacf0c69")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(property "Value" "RESC3876X70N"
+		(at 0 0 0)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "54d1f901-209e-4364-9b1a-46483aec1675")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "c3c51341-49b5-448f-8906-9490c47c84a8")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "0448a962-d1ae-4491-b429-96ba107b1e32")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start 0 -3.7)
+		(end 0 3.7)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "c7692d87-00a4-4f0b-a1d1-ce9a6cb70edb")
+	)
+	(fp_line
+		(start -2.6 -4.15)
+		(end 2.6 -4.15)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "892cd330-9b17-4a3e-ad5b-caf9031d5ea4")
+	)
+	(fp_line
+		(start -2.6 4.15)
+		(end -2.6 -4.15)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "5618cce5-55e7-4944-848f-4f13140e6735")
+	)
+	(fp_line
+		(start 2.6 -4.15)
+		(end 2.6 4.15)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "81f66780-b8db-4525-b1fb-8d14968c36e6")
+	)
+	(fp_line
+		(start 2.6 4.15)
+		(end -2.6 4.15)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "af437ed1-ae49-4cfd-b31b-912249eae4a4")
+	)
+	(fp_line
+		(start -1.9 -3.8)
+		(end 1.9 -3.8)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "5802ffbd-fce3-4aed-8af8-1cdcba3dc643")
+	)
+	(fp_line
+		(start -1.9 3.8)
+		(end -1.9 -3.8)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "c6df311b-ca9b-4a97-b216-56b3f9520601")
+	)
+	(fp_line
+		(start 1.9 -3.8)
+		(end 1.9 3.8)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "b7df0922-505a-4e02-8c13-8288b1fb5479")
+	)
+	(fp_line
+		(start 1.9 3.8)
+		(end -1.9 3.8)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "07a7a2a1-539f-41ee-88f1-16d93f512d61")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(uuid "dcb70ec7-e57d-4b9b-9b71-2c117e6dca28")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(pad "1" smd rect
+		(at -1.35 0)
+		(size 2 7.8)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "90770bb7-c8b4-40b3-8af7-00a525e3036c")
+	)
+	(pad "2" smd rect
+		(at 1.35 0)
+		(size 2 7.8)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "4e701e28-c612-45b2-b530-f231bc8031e1")
+	)
+	(embedded_fonts no)
+	(model "C:/Users/nagor/OneDrive/Escritorio/PCB_DESIGN/GitLabRepository/KicadLib/3D-Models-lib/m_Resistor_measurement/FCSL76R050DER.stp"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -90 0 0)
+		)
+	)
+)

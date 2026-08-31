@@ -1,0 +1,234 @@
+(footprint "TO546P1587X531X2511-3"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0.675 -3.635 0)
+		(layer "F.SilkS")
+		(uuid "7d729418-f8cf-44c3-83f4-357c22c0020f")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "TO546P1587X531X2511-3"
+		(at 10.862 3.53 0)
+		(layer "F.Fab")
+		(uuid "48a4e95f-79b4-4762-a96a-01b92c94811b")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "28c38756-ffb8-467d-abe0-38f33c500e77")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "17155e0e-1c18-43e8-a746-192aad7c1339")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_line
+		(start -2.33 -2.71)
+		(end 13.25 -2.71)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "f292cf1e-ce46-4412-b675-db4a61fd59a0")
+	)
+	(fp_line
+		(start -2.33 2.235)
+		(end -2.33 -2.71)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "e43b8e96-e91b-443e-aacf-c1a8b090e8ba")
+	)
+	(fp_line
+		(start 13.25 -2.71)
+		(end 13.25 2.235)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "08e6c4c9-d84e-4412-8789-4c5a046d5b45")
+	)
+	(fp_line
+		(start 13.25 2.235)
+		(end -2.33 2.235)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "a876f4e7-5bfc-4a69-8eee-903e4d62b210")
+	)
+	(fp_circle
+		(center -3 -0.3)
+		(end -2.9 -0.3)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "b99c8c44-9a30-4af6-9052-d4bdedf7b2cf")
+	)
+	(fp_line
+		(start -2.58 -2.965)
+		(end 13.5 -2.965)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "4041b4eb-02ef-490b-8486-4c804004799a")
+	)
+	(fp_line
+		(start -2.58 2.485)
+		(end -2.58 -2.965)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "0ab98062-2622-4a8f-8809-23b8d51ca3a1")
+	)
+	(fp_line
+		(start 13.5 -2.965)
+		(end 13.5 2.485)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "07c67501-4a57-4bbf-9a68-2eb71e140d55")
+	)
+	(fp_line
+		(start 13.5 2.485)
+		(end -2.58 2.485)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "3ef0096a-8ee6-4560-afef-79882ccd887d")
+	)
+	(fp_line
+		(start -2.33 -2.71)
+		(end 13.25 -2.71)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "9e66a995-5f78-44e3-a7f0-8779b9a3228f")
+	)
+	(fp_line
+		(start -2.33 2.235)
+		(end -2.33 -2.71)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "37c94eb8-99b5-47e3-a59c-570dd8415917")
+	)
+	(fp_line
+		(start 13.25 -2.71)
+		(end 13.25 2.235)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "fbfc46d0-f66f-4307-81e7-62aaba8f17dd")
+	)
+	(fp_line
+		(start 13.25 2.235)
+		(end -2.33 2.235)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "5fb0e814-a904-44bf-a3ff-5bbc74db9049")
+	)
+	(fp_circle
+		(center -3 -0.3)
+		(end -2.9 -0.3)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "a787d58f-7a4f-4872-8a67-519aa28f4cd2")
+	)
+	(pad "1" thru_hole rect
+		(at 0 0)
+		(size 2.69 2.69)
+		(drill 1.79)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(solder_mask_margin 0.102)
+		(uuid "d8162297-da2a-43e6-8049-ea12142425af")
+	)
+	(pad "2" thru_hole circle
+		(at 5.46 0)
+		(size 2.69 2.69)
+		(drill 1.79)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(solder_mask_margin 0.102)
+		(uuid "356a2fa4-c443-4831-a458-eb5b73a3991b")
+	)
+	(pad "3" thru_hole circle
+		(at 10.92 0)
+		(size 2.69 2.69)
+		(drill 1.79)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(solder_mask_margin 0.102)
+		(uuid "0ebfe828-d223-4020-8c9f-86a4135f7bd0")
+	)
+	(embedded_fonts no)
+	(model "C:/Users/nagor/OneDrive/Escritorio/PCB_DESIGN/GitLabRepository/KicadLib/3D-Models-lib/m_MOSFET/IRFP460.step"
+		(offset
+			(xyz 5.5 0 -9.5)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -90 -0 -0)
+		)
+	)
+)
