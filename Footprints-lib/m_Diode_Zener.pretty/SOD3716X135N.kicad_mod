@@ -1,0 +1,201 @@
+(footprint "SOD3716X135N"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "MMSZ5233B-E3-08--")
+	(tags "Zener Diode")
+	(property "Reference" "Z**"
+		(at 0 0 0)
+		(layer "F.SilkS")
+		(uuid "14a20448-7bc6-4503-a79d-2436d4ea0410")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(property "Value" "SOD3716X135N"
+		(at 0 0 0)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "7895ed3e-4db7-45f0-9ca3-072ddf8e1929")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "a94bb549-b4c1-45d1-b9f7-3bd7adc3ed78")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "7bec7351-d2f6-496d-a210-c177e2fa9c6f")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -2.275 -0.775)
+		(end 1.35 -0.775)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "8146d9cf-0cac-4990-bfaa-9de3da7a994c")
+	)
+	(fp_line
+		(start -1.35 0.775)
+		(end 1.35 0.775)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "659dc713-99cc-4c7e-b6d3-9736ce014a75")
+	)
+	(fp_line
+		(start -2.525 -1.675)
+		(end 2.525 -1.675)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "98c29221-ae68-4653-9e53-4bcbc154d525")
+	)
+	(fp_line
+		(start -2.525 1.675)
+		(end -2.525 -1.675)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "a79bbd64-ab1d-4d63-9b46-864fab4462a3")
+	)
+	(fp_line
+		(start 2.525 -1.675)
+		(end 2.525 1.675)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "1a470a20-d109-4565-9d12-b64df4b683d4")
+	)
+	(fp_line
+		(start 2.525 1.675)
+		(end -2.525 1.675)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "94f2c3ea-08fe-431e-9afa-6c6ec494c2b9")
+	)
+	(fp_line
+		(start -1.35 -0.775)
+		(end 1.35 -0.775)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "6b76f14c-e96a-4cbf-addc-9c9942c4c11c")
+	)
+	(fp_line
+		(start -1.35 -0.15)
+		(end -0.725 -0.775)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "fcb82a9a-e87e-4089-a2e5-2e3028e7edde")
+	)
+	(fp_line
+		(start -1.35 0.775)
+		(end -1.35 -0.775)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "4ae1c223-9df2-4838-b055-ad508f7bba99")
+	)
+	(fp_line
+		(start 1.35 -0.775)
+		(end 1.35 0.775)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "f454e6a1-f9d6-450b-80e8-bc523e39e41e")
+	)
+	(fp_line
+		(start 1.35 0.775)
+		(end -1.35 0.775)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "15a31a44-ed1a-491c-abdf-a8bdb1e4c9d3")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(uuid "4cfeca0e-3103-4abf-a360-a319f22c57d2")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(pad "1" smd rect
+		(at -1.65 0 90)
+		(size 0.75 1.25)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "b3ae1ee5-709b-46c4-87de-5358e6d1a243")
+	)
+	(pad "2" smd rect
+		(at 1.65 0 90)
+		(size 0.75 1.25)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "c14f4f36-a558-4a3f-80eb-3db82c1768d3")
+	)
+	(embedded_fonts no)
+	(model "C:/Users/nagor/OneDrive/Escritorio/PCB_DESIGN/GitLabRepository/KicadLib/3D-Models-lib/m_Diode_Zener/MMSZ5233B-E3-08.stp"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)
