@@ -117,6 +117,14 @@
 					(type background)
 				)
 			)
+			(text "50mΩ"
+				(at 8.636 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
 			(pin passive line
 				(at 0 0 0)
 				(length 5.08)
