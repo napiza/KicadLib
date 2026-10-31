@@ -235,15 +235,15 @@
 		(uuid "36cd964f-0c8a-4f45-bba8-fef8b426a98b")
 	)
 	(embedded_fonts no)
-	(model "${KICAD_USER_LIBRARY}/3D-Models-lib/m_LDO/MC7915BD2TR4G.stp"
+	(model "C:/Users/nagor/OneDrive/Escritorio/PCB_DESIGN/GitLabRepository/KicadLib/3D-Models-lib/m_LDO/MC7915BD2TR4G.stp"
 		(offset
-			(xyz 0 2 0)
+			(xyz 0 0 0)
 		)
 		(scale
 			(xyz 1 1 1)
 		)
 		(rotate
-			(xyz -0 -0 -0)
+			(xyz 0 0 0)
 		)
 	)
 )

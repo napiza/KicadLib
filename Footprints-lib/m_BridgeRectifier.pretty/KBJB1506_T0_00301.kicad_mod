@@ -279,7 +279,7 @@
 		(uuid "067f0170-b637-40c0-8ef0-9fe4a84ec0dc")
 	)
 	(embedded_fonts no)
-	(model "${KICAD_USER_LIBRARY}/3D-Models-lib/m_BridgeRectifier/KBJB1506_T0_00301.stp"
+	(model "C:/Users/nagor/OneDrive/Escritorio/PCB_DESIGN/GitLabRepository/KicadLib/3D-Models-lib/m_BridgeRectifier/KBJB1506_T0_00301.stp"
 		(offset
 			(xyz 11.5 0 0)
 		)

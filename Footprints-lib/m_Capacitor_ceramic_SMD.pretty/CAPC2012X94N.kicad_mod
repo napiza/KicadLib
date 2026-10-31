@@ -157,7 +157,7 @@
 		(uuid "ff92da48-3b28-4bf3-803b-78611ddbd2ed")
 	)
 	(embedded_fonts no)
-	(model "${KICAD_USER_LIBRARY}/3D-Models-lib/m_Capacitor_ceramic_SMD/08052C223M4Z2A.stp"
+	(model "C:/Users/nagor/OneDrive/Escritorio/PCB_DESIGN/GitLabRepository/KicadLib/3D-Models-lib/m_Capacitor_ceramic_SMD/08052C223M4Z2A.stp"
 		(offset
 			(xyz 0 0 0)
 		)

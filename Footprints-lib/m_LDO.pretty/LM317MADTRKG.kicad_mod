@@ -235,7 +235,7 @@
 		(uuid "4dee5d3e-975c-48cc-b926-8536130944c2")
 	)
 	(embedded_fonts no)
-	(model "${KICAD_USER_LIBRARY}/3D-Models-lib/m_LDO/MC7805BDTRKG.stp"
+	(model "C:/Users/nagor/OneDrive/Escritorio/PCB_DESIGN/GitLabRepository/KicadLib/3D-Models-lib/m_LDO/MC7805BDTRKG.stp"
 		(offset
 			(xyz -1.359999994 -3.170000029 1.090000017)
 		)
