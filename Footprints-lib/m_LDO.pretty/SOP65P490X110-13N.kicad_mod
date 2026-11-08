@@ -1,0 +1,257 @@
+(footprint "SOP65P490X110-13N"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "MSE Package 12-Lead Plastic MSOP, Exposed Die Pad")
+	(tags "Integrated Circuit")
+	(property "Reference" "IC**"
+		(at 0 0 0)
+		(layer "F.SilkS")
+		(uuid "7d587c2f-3b6e-4f0e-b333-fb5efe4b6169")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(property "Value" "SOP65P490X110-13N"
+		(at 0 0 0)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "0d3d7810-2e51-4e10-a453-16bfaec58e69")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "360f2bfd-7494-4af2-b6af-cc92bbbb7d4e")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "5632abfe-e126-4f70-b0c1-397eaf984de2")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -2.925 -2.2)
+		(end -1.5 -2.2)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "511ed455-6f5f-4f6a-966c-9888b113f32f")
+	)
+	(fp_line
+		(start -3.175 -2.32)
+		(end 3.175 -2.32)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "32259d42-cf10-4f6e-a290-0c1309aa7c9a")
+	)
+	(fp_line
+		(start -3.175 2.32)
+		(end -3.175 -2.32)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "79898659-2bf0-4b6c-9cb0-7543df32fdbc")
+	)
+	(fp_line
+		(start 3.175 -2.32)
+		(end 3.175 2.32)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "107abafc-8388-4494-bda4-8d85b4679a23")
+	)
+	(fp_line
+		(start 3.175 2.32)
+		(end -3.175 2.32)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "c8b25b4e-1d86-49dc-a359-016909a7571c")
+	)
+	(fp_line
+		(start -1.5 -2.02)
+		(end 1.5 -2.02)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "239f7d6d-86b0-499c-9375-8f7a6a89f2f8")
+	)
+	(fp_line
+		(start -1.5 -1.37)
+		(end -0.85 -2.02)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "0bb6ea8e-1e3e-4d87-a04b-f28460dadc95")
+	)
+	(fp_line
+		(start -1.5 2.02)
+		(end -1.5 -2.02)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "c9b24f6e-c861-4c7f-bbf6-a0f6b82dbf40")
+	)
+	(fp_line
+		(start 1.5 -2.02)
+		(end 1.5 2.02)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "cb45e8c8-b347-48e6-8976-285fb1451003")
+	)
+	(fp_line
+		(start 1.5 2.02)
+		(end -1.5 2.02)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "f4c4c2ff-34d4-4950-9f9a-1ba8b2c1193e")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(uuid "332e0257-fd1c-43fb-9335-c2a02112b396")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(pad "1" smd rect
+		(at -2.212 -1.625 90)
+		(size 0.45 1.425)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "118095ae-21ca-4009-ab20-af33ce7c6273")
+	)
+	(pad "2" smd rect
+		(at -2.212 -0.975 90)
+		(size 0.45 1.425)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "a70a59a3-277b-4bbd-910f-e5322f496cdd")
+	)
+	(pad "3" smd rect
+		(at -2.212 -0.325 90)
+		(size 0.45 1.425)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "0e329714-d4e3-4550-b33f-7e77df93f2ec")
+	)
+	(pad "4" smd rect
+		(at -2.212 0.325 90)
+		(size 0.45 1.425)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "a111f447-76e8-4589-b0b9-242c870b663d")
+	)
+	(pad "5" smd rect
+		(at -2.212 0.975 90)
+		(size 0.45 1.425)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "77c286cd-4ed0-47e0-b899-e17fc07fe6c4")
+	)
+	(pad "6" smd rect
+		(at -2.212 1.625 90)
+		(size 0.45 1.425)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "a3b1fbc7-9053-48d8-80e6-6c270d3decce")
+	)
+	(pad "7" smd rect
+		(at 2.212 1.625 90)
+		(size 0.45 1.425)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "3293c712-d86a-410a-8583-5fbd8781db4a")
+	)
+	(pad "8" smd rect
+		(at 2.212 0.975 90)
+		(size 0.45 1.425)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "7ed3e94a-45d3-479d-8942-5058c5e14460")
+	)
+	(pad "9" smd rect
+		(at 2.212 0.325 90)
+		(size 0.45 1.425)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "eab44d54-dc39-4f6d-ab92-92827eb1c24f")
+	)
+	(pad "10" smd rect
+		(at 2.212 -0.325 90)
+		(size 0.45 1.425)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "4dc6d9f7-fc14-4c0d-bf5e-5149d83c089b")
+	)
+	(pad "11" smd rect
+		(at 2.212 -0.975 90)
+		(size 0.45 1.425)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "70aeed84-c4c0-4403-bf10-65a332e51837")
+	)
+	(pad "12" smd rect
+		(at 2.212 -1.625 90)
+		(size 0.45 1.425)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "4a257393-7d7b-46e6-80f4-8bd79cf951d3")
+	)
+	(pad "13" smd rect
+		(at 0 0)
+		(size 1.753 2.947)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "139cd8f1-0fb1-47fc-ab94-2c74bd67192f")
+	)
+	(embedded_fonts no)
+	(model "C:/Users/nagor/OneDrive/Escritorio/PCB_DESIGN/GitLabRepository/KicadLib/3D-Models-lib/m_LDO/LT3015IMSE-15#PBF.stp"
+		(offset
+			(xyz 0 0 0.09999999999)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 -90)
+		)
+	)
+)
